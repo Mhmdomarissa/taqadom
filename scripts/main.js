@@ -336,9 +336,6 @@
         
         // Initial navbar state check
         handleNavbarScroll();
-        
-        // Log initialization
-        console.log('Taqadum Investment LLC - Website Initialized');
     }
 
     // Run initialization when DOM is ready

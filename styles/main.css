@@ -171,8 +171,12 @@ ul, ol {
 
 .nav-logo {
     display: flex;
-    flex-direction: column;
-    gap: 2px;
+    align-items: center;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
 }
 
 .logo-text {
@@ -783,6 +787,13 @@ ul, ol {
     grid-template-columns: 2fr 1fr 1fr;
     gap: var(--spacing-3xl);
     margin-bottom: var(--spacing-3xl);
+}
+
+.footer-logo-img {
+    height: 60px;
+    width: auto;
+    filter: brightness(0) invert(1);
+    margin-bottom: var(--spacing-md);
 }
 
 .footer-brand .logo-text {
